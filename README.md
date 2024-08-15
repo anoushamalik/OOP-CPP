@@ -19,14 +19,12 @@ The program will calculate the rental fee based on the selected car model and th
 Finally, it will display the rental details including the customer's name, car model, rental days, and the total rental amount.
 
 ### Example Output
-Enter the name of the customer: 
-John Doe
 
 Enter the name of the customer: 
-John Doe
+ John Doe
 
-******************** Select the Car ********************
- To choose Porsche 1931 Press A 
+ Select the Car 
+ To choose Porsche 1931 Press A     
  To choose Ford 1903 Press B 
  To choose Ferrari 2015 Press C 
  To choose BMW 2012 Press D 
