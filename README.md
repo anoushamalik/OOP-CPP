@@ -5,7 +5,7 @@ When the user runs this program, they will interact as follows:
 
 1- Input Customer Information:
 The user will be prompted to enter the customer's name.
-Then, they select a car model by choosing one of the options ('A' to 'L').
+Then, they select a car model by choosing one of the options.
 
 2- Car Selection:
 The user will see the car model they selected displayed on the screen.
