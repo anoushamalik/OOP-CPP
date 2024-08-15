@@ -1,5 +1,5 @@
 ### Online Car Rental System
-The following is the work of Car Rental System Project.
+The following is the workflow of Car Rental System Project.
 ### Interaction Flow
 When the user runs this program, they will interact as follows:
 
