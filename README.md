@@ -48,42 +48,6 @@ This project is a simple **Car Rental Management System** implemented in C++. It
 4. The system calculates the total rental fee based on the car model selected and the number of days.
 5. Finally, the program displays the owner's details and a summary of the rental, including the total rental amount.
 
-## Example Output
-
-```
-****************Welcome to Car Rental System****************
-Enter the name of the customer
-John Doe
-
-                        **************** Select the Car ****************
-                                Press '1' for Parado 2021.
-                                ...
-                                Press '15' for Mercedez 2020.
-
-                        Do select the car from the above options
-1
-
-The car you choosed is Parado 2021
-
-For How many days you want to rent a car??
-5
-
-The rent of the car is calculating.........!!
-Car Owner :   Anousha Malik 
-Contact Number :   03395557833 
-Address :   Chakri Road Rawalpindi 
-***************************************************************************** 
-
- s Online Car Rental Services 
- ***************************************************************
- Customer Name:   John Doe
- Car Model :   1
- Car No. :   JPL 756
- Number of days:   5
- ***********************************************************
- Total Rental Amount is :   RS 280
- ******************************************************************
-```
 
 ## License
 
