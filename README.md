@@ -1,33 +1,91 @@
-### Online Car Rental System
-The following is the workflow of the Car Rental System Project.
-### Interaction Flow
-When the user runs this program, they will interact as follows:
 
-1- Input Customer Information:
-The user will be prompted to enter the customer's name.
-Then, they select a car model by choosing one of the options.
+# Car Rental Management System
 
-2- Car Selection:
-The user will see the car model they selected displayed on the screen.
-If they enter an invalid option, they will be prompted to enter a valid one again.
+## Overview
 
-3- Enter Rental Details:
-The user will input the number of days they wish to rent the car.
+This project is a simple **Car Rental Management System** implemented in C++. It allows customers to rent cars for a specified number of days and calculates the total rental cost based on the selected car model and the number of days. The system also displays details about the car owner and the rental information.
 
-4- Calculate and Display Rent:
-The program will calculate the rental fee based on the selected car model and the number of days.
-Finally, it will display the rental details including the customer's name, car model, days, and the total rental amount.
+## Features
 
-### Example Output
- First, it will ask for the name of someone wanting to rent a car.
- After that, it will Display the list of the Cars and prompt the user to select the model according to his choice.
+- **Car Selection:** The system allows users to choose from a list of 15 car models, each with different rental rates.
+- **Rental Duration:** The user can specify the number of days they want to rent the car.
+- **Rental Calculation:** The system calculates the total rental fee based on the car model selected and the number of days.
+- **Owner Information Display:** The system displays the car owner's details.
+- **Rental Information Display:** The system provides a detailed summary of the rental, including customer name, car model, car number, rental duration, and total rental cost.
 
- Then it will ask the user to enter the number of days he wants to rent a car.
- After entering the number of rental days, the program calculates the rental fee and clears the screen. It then shows the rental details.
- The rent of the car is calculated. Please wait for it......
+## Classes
 
- After calculating it will display all the credentials and details of the owner with rent.
- 
-### Keypoint to be Noted:
-This program is an OOP Class Program working via the UML Diagram of the Online Rental Car System attached in the pdf report.
+### 1. `Owner`
+- **Attributes:**
+  - `owner_name`: The name of the car owner.
+  - `contact_number`: The contact number of the car owner.
+  - `owner_address`: The address of the car owner.
+- **Methods:**
+  - `display()`: Displays the owner's details.
+
+### 2. `Car`
+- **Attributes:**
+  - `customer_name`: The name of the customer renting the car.
+  - `car_model`: The selected car model.
+  - `carnumber`: The car number (pre-defined as "JPL 756").
+- **Methods:**
+  - `add()`: Placeholder function (not used in this program).
+
+### 3. `Rental` (Inherits from `Car`)
+- **Attributes:**
+  - `days`: The number of days the car is rented (initialized to 0).
+  - `rentalfee`: The calculated rental fee (initialized to 0).
+- **Methods:**
+  - `data()`: Captures customer information and selected car model.
+  - `calculate()`: Calculates the total rental fee based on the car model and number of rental days.
+  - `displayrent()`: Displays the rental information including customer name, car model, number of days, and total rental fee.
+
+## How It Works
+
+1. The program welcomes the user to the Car Rental System.
+2. The user is prompted to enter their name and select a car model from a list of available options.
+3. The user is then asked to specify the number of days they wish to rent the car.
+4. The system calculates the total rental fee based on the car model selected and the number of days.
+5. Finally, the program displays the owner's details and a summary of the rental, including the total rental amount.
+
+## Example Output
+
+```
+****************Welcome to Car Rental System****************
+Enter the name of the customer
+John Doe
+
+                        **************** Select the Car ****************
+                                Press '1' for Parado 2021.
+                                ...
+                                Press '15' for Mercedez 2020.
+
+                        Do select the car from the above options
+1
+
+The car you choosed is Parado 2021
+
+For How many days you want to rent a car??
+5
+
+The rent of the car is calculating.........!!
+Car Owner :   Anousha Malik 
+Contact Number :   03395557833 
+Address :   Chakri Road Rawalpindi 
+***************************************************************************** 
+
+ s Online Car Rental Services 
+ ***************************************************************
+ Customer Name:   John Doe
+ Car Model :   1
+ Car No. :   JPL 756
+ Number of days:   5
+ ***********************************************************
+ Total Rental Amount is :   RS 280
+ ******************************************************************
+```
+
+## License
+
+This project is open-source and available under the MIT License. See the [LICENSE](./LICENSE) file for more details.
 
