@@ -3,7 +3,7 @@
 #include <unistd.h>
 #include <iomanip>
 using namespace std;
-// main class of the class owner representing base class
+// main class of the class owner representing a base class
  class Owner
 {
 // Attributes of the owner class showing in public:
