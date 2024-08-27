@@ -1,19 +1,19 @@
 
-# Car Rental Management System
+# Online Car Rental System
 
-## Overview
+This project is an implementation of an **Online Car Rental System** using **Object-Oriented Programming (OOP)** principles in C++. The structure of this program is based on the **UML Class Diagram**, providing a well-organized and scalable approach to software development.
 
-This project is a simple **Car Rental Management System** implemented in C++. It allows customers to rent cars for a specified number of days and calculates the total rental cost based on the selected car model and the number of days. The system also displays details about the car owner and the rental information.
+## Project Overview
 
-## Features
+In this project, a user can rent a car for a specified number of days. The program offers a menu of different cars, allowing the user to select the one that meets their needs. Once the car is selected, the user can input the number of days they wish to rent the car. The program then calculates the total rental fee and generates an output form displaying all relevant information about the user and the owner.
 
-- **Car Selection:** The system allows users to choose from a list of 15 car models, each with different rental rates.
-- **Rental Duration:** The user can specify the number of days they want to rent the car.
-- **Rental Calculation:** The system calculates the total rental fee based on the car model selected and the number of days.
-- **Owner Information Display:** The system displays the car owner's details.
-- **Rental Information Display:** The system provides a detailed summary of the rental, including customer name, car model, car number, rental duration, and total rental cost.
+### Key Features
+- **Car Selection:** A variety of car models are available for selection.
+- **Rent Calculation:** The program calculates the rental fee based on the selected car and the number of rental days.
+- **User & Owner Details:** Information about both the user (customer) and the owner is displayed in a neatly formatted output.
+- **Modular Design:** The program is divided into multiple classes, each handling specific functionalities.
 
-## Classes
+- ## Classes
 
 ### 1. `Owner`
 - **Attributes:**
@@ -40,13 +40,23 @@ This project is a simple **Car Rental Management System** implemented in C++. It
   - `calculate()`: Calculates the total rental fee based on the car model and number of rental days.
   - `displayrent()`: Displays the rental information including customer name, car model, number of days, and total rental fee.
 
-## How It Works
 
-1. The program welcomes the user to the Car Rental System.
-2. The user is prompted to enter their name and select a car model from a list of available options.
-3. The user is then asked to specify the number of days they wish to rent the car.
-4. The system calculates the total rental fee based on the car model selected and the number of days.
-5. Finally, the program displays the owner's details and a summary of the rental, including the total rental amount.
+## UML Class Diagram
+
+The **UML Class Diagram** is a blueprint that outlines the structure of the classes used in this project. It illustrates the relationships between the classes, their attributes, methods, and how they interact with each other. By following the UML diagram, the program is designed to be intuitive, maintainable, and extensible.
+
+
+## How to Run the Project
+
+1. Clone this repository to your local machine.
+2. Compile the code using a C++ compiler.
+3. Run the executable file.
+4. Follow the prompts to select a car and input the required details.
+
+
+---
+
+This README provides a clear understanding of your project, its functionality, and its design principles, making it easy for others to explore and use your code.
 
 
 ## License
