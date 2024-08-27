@@ -56,9 +56,6 @@ The **UML Class Diagram** is a blueprint that outlines the structure of the clas
 
 ---
 
-This README provides a clear understanding of your project, its functionality, and its design principles, making it easy for others to explore and use your code.
-
-
 ## License
 
 This project is open-source and available under the MIT License. See the [LICENSE](./LICENSE) file for more details.
