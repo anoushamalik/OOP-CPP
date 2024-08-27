@@ -54,8 +54,6 @@ The **UML Class Diagram** is a blueprint that outlines the structure of the clas
 4. Follow the prompts to select a car and input the required details.
 
 
----
-
 ## License
 
 This project is open-source and available under the MIT License. See the [LICENSE](./LICENSE) file for more details.
